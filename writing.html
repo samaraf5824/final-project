@@ -26,7 +26,13 @@
         text-align:center;
     }
 </style>
-
+<script>
+  $(function() {
+      $('span').click(function() {
+        $('span').slideUp(2000).slideDown(2000);
+      });
+  });
+</script>
 <body>
  <nav class="navbar navbar-inverse">
   <div class="container-fluid">
