@@ -29,8 +29,8 @@
 
 <script>
   $(function() {
-      $('span').click(function() {
-        $('span').slideUp(2000).slideDown(2000);
+      $('#pencil').click(function() {
+        $('#pencil').slideUp(2000).slideDown(2000);
       });
   });
 </script>
@@ -62,7 +62,7 @@
  <header>
   <div class="jumbotron2">
 
-   <h1 class="display-4">Timed Writing <span class="glyphicon glyphicon-pencil"></span></h1>
+   <h1 class="display-4">Timed Writing <span id= 'pencil' class="glyphicon glyphicon-pencil"></span></h1>
    <h4 class="lead">Here Are Some Tips For Writing</h4>
    <hr class="my-4">
 

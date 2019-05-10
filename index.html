@@ -14,30 +14,58 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <link href="https://fonts.googleapis.com/css?family=Philosopher|Yrsa" rel="stylesheet">
 </head>
 <style>
-
-   .center{
-  width:50%;
-  margin:auto;
-   }
-  
   .jumbotron{
    margin-left:30px;
    margin-right:30px;
+  font-family: 'Philosopher', sans-serif;
+  }
+  .jumbotron2{
+   margin-left:30px;
+   margin-right:30px;
+   text-align:center;
+  }
+  h2{
+   font-size:25px;
+   text-align:center;
+  font-family: 'Yrsa', serif;
   }
   img{
-   width:450px;
-   margin-right:auto;
-   margin-left:auto;
+  height:100px;
   }
 
   button{
    float:right;
   }
-  
+  /* sm+ */
+   @media(min-width:768px) {
 
-  
+   img{
+  height:150px;
+  }
+ }
+
+ /* md+ */
+
+ @media(min-width:992px) {
+ 
+  img{
+  height:200px;
+  }
+ }
+
+ /* lg */
+
+ @media(min-width:1200px) {
+
+   img{
+  height:250px;
+
+  }
+
+ }
   
   
 
@@ -78,24 +106,25 @@
 
  </nav>
     
-    <div class= "center">
+    <div class= "jumbotron2">
   <img src='images/english.png'>
   </div>
  
  <div class = "jumbotron">
-  <h3>This is a college class that high schoolers can take. If they pass the exam then they don't worry about having to take or pay for it in college. You are not penalized if you do not pass the exam. </h3> 
+  <h3><strong>This is a college class that high schoolers can take. If they pass the exam then they don't worry about having to take or pay for it in college. You are not penalized if you do not pass the exam. </strong></h3> 
   
- <h3>You take the exam in May. You'll need at least a 3 to get a college credit.</h3> 
-  <h3>For multiple choice, you'll need to get a 26 out of 50 questions to pass. There are 3 timed essays.</h3>
+ <h3><strong>You take the exam in May. You'll need at least a 3 to get a college credit.</strong></h3> 
+  <h3><strong>For multiple choice, you'll need to get a 26 out of 50 questions to pass. There are 3 timed essays.</strong></h3>
   <ul>
-    <li><strong>Synthesis:</strong> Students read several texts about a topic and create an argument that synthesizes at least three of the sources to support their thesis.</li>
-    <li><strong>Rhetorical analysis:</strong> Students read a non-fiction text and analyze how the writer's language choices contribute to his or her purpose and intended meaning for the text.</li>
-    <li><strong>Argument:</strong> Students create an evidence-based argument that responds to a given topic.</li>
+    <li><strong>Synthesis: Students read several texts about a topic and create an argument that synthesizes at least three of the sources to support their thesis.</strong></li>
+  
+    <li><strong>Rhetorical analysis: Students read a non-fiction text and analyze how the writer's language choices contribute to his or her purpose and intended meaning for the text.</strong></li>
+    <li><strong>Argument: Students create an evidence-based argument that responds to a given topic.</strong></li>
     <ul>
-        <li>Students must to come up with all the evidence they use themselves as no form of text evidence will be provided to them other than the promt itself.</li>
+        <li><strong>Students must to come up with all the evidence they use themselves as no form of text evidence will be provided to them other than the promt itself.</strong></li>
         <ul>
             
-        <li>Evidence can consist of books youve read in your own time, personal experiences, current events, etc.</li>
+        <li><strong>Evidence can consist of books youve read in your own time, personal experiences, current events, etc.</strong></li>
         </ul>
   </ul>
   </ul>
@@ -106,14 +135,14 @@
       });
   });
 </script>
- 
-  <h2>Some thing's To Remember;</h2>
-  <h2>- Don't go on your phone in class!</h2>
-  <h2>- Give the teacher back their books!</h2>
-  <h2>- Don't be late to class</h2>
-  <h2>- Most Importantly, DON'T GIVE IN WORK LATE!!!!!</h2>
+ <div class ="row">
+  <h2 >Somethings To Remember:</h2>
+  <h2 class="col-sm-6"><strong>- Don't go on your phone in class!</strong></h2>
+  <h2 class="col-sm-6"><strong>- Give the teacher back their books!</strong></h2>
+  <h2 class="col-sm-6"><strong>- Don't be late to class</strong></h2>
+  <h2 class="col-sm-6"><strong>- Most Importantly, DON'T GIVE IN WORK LATE!!!!!</strong></h2>
   </div>
- 
+ </div>
  
   
   
