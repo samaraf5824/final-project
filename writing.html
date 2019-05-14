@@ -33,7 +33,7 @@
 
 <script>
   $(function() {
-      $('#pencil').click(function() {
+      $('#pencil').hover(function() {
         $('#pencil').slideUp(2000).slideDown(2000);
       });
   });
@@ -62,6 +62,8 @@
   </div>
 
  </nav>
+ 
+ 
  
  <header>
   <div class="jumbotron2">
@@ -95,7 +97,7 @@
  <br><br><br>
  <header>
   <div class = "jumbotron3">
-   <h1 class ='display-4'>In Class Essays <span class="glyphicon glyphicon-pencil"></span></h1>
+   <h1 class ='display-4'>In Class Essays <span id = 'pencil' class="glyphicon glyphicon-pencil"></span></h1>
    <h4 class="lead">Here Are Some Tips For Writing In Class essays</h4>
    <hr class="my-4">
    <h4>Just like you would for a timed essay, make a quick outline first. It doesn't have t be super deatiled or full sentences.</h4>
